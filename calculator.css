@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #082032;
+}
+
+.calculator-input .inputs{
+    background-color: #fff;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+.calculator .calculator-main{
+    padding: 20px 10px;
+}
+
+.calculator-input .inputs .form-control{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.calculator-input .inputs .form-control:focus{
+    outline: 0;
+    border: 0;
+}
+.calculator-input .inputs .form-control:focus-visible{
+    border: none;
+    outline: none;
+
+}
+
+.calculator-input .input-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.calculator-input .input-button .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-input .input-button .buttons .btn{
+    background-color: rgb(212, 216, 219);
+    margin: 20px 15px;
+    padding: 10px 25px;
+    box-shadow: 2px 0 8px rgb(65, 64, 64);
+    font-size: 18px;
+    font-weight: 500;
+}
+.calculator-input .input-button .buttons #green{
+    background-color: #ff4c29;
+    padding: 15px 65px;
+    color: aliceblue;
+}
+.calculator-input .input-button .buttons #ac{
+    background-color: #ff4c29;
+    color: #fff;
+}
+
+@media(max-width:700px){
+    .calculator{
+        margin: 0 50px;
+        width: 360px;
+    }
+
+    .calculator-input .input-button .buttons .btn{
+        background-color: rgb(212, 216, 219);
+        margin: 20px 15px;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .calculator-input .input-button .buttons #green{
+        background-color: #ff4c29;
+        padding: 15px 55px;
+        color: aliceblue;
+    }
+    .calculator .calculator-main{
+        padding: 20px 10px;
+    }
+}
