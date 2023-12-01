@@ -60,7 +60,7 @@ body{
     background-color: rgb(212, 216, 219);
     margin: 20px 15px;
     padding: 10px 25px;
-    box-shadow: 2px 0 8px rgb(65, 64, 64);
+    box-shadow: 2px 2px 8px #082032;
     font-size: 18px;
     font-weight: 500;
 }
